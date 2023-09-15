@@ -10,3 +10,22 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto centra verticalmente en la página */
+}
+
+.login-form {
+  width: 40%; /* Ancho máximo del formulario */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Puedes ajustar estos estilos según tus preferencias */
