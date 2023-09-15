@@ -1,2 +1,15 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Google Sheets Embed</h1>
+<div class="home-view">
+  <div class="home-text">
+    <h2>¿Cómo funciona?</h2>
+    <p><strong>1- </strong>La hoja está conectada por medio de un AppScript.</p>
+    <p><strong>2- </strong>El AppScript está escuchando todos los eventos en que el SpreadSheet se edita.</p>
+    <p><strong>3- </strong>Una función que recibe el evento verifica si la celda que se modificó está dentro de la columna de "Tasa".</p>
+    <p><strong>4- </strong>Si es que sí esta en el rango de la columna de "Tasa" se gatilla un POST Request al weebhook de Zapier, quien envía un email correspondiente al de la fila con la información que se cambió.</p>
+  </div>
+  <div>
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/1_6TgW-8cP3B-QdbkE0F3UJ3v9hdDw4cWXzgBu0Qt2zw/edit?usp=sharing&amp;single=true&amp;widget=true&amp;headers=false&amp;rm=minimal">
+    </iframe>
+  </div>
+</div>

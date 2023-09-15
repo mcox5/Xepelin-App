@@ -1,1 +1,48 @@
 // Specific CSS for your home-page
+h1 {
+  background-color: #333; /* Cambia el color de fondo del encabezado según tus preferencias */
+  color: #fff; /* Cambia el color del texto del encabezado según tus preferencias */
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+  padding: 20px;
+  margin: 0; /* Cambia el color del texto del encabezado según tus preferencias */
+}
+
+p {
+  margin: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
+
+iframe {
+  width: 500px; /* Cambia el ancho del iframe según tus preferencias */
+  max-width: 800px; /* Establece un ancho máximo para evitar que el iframe sea demasiado ancho en pantallas grandes */
+  height: 370px;
+  margin: 5px auto; /* Centra el iframe horizontalmente en la página */
+  display: block;
+  border: none; /* Elimina el borde del iframe */
+}
+
+.home-view {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 90%;
+  margin-top: 100px;
+}
+
+.home-text {
+  width: 40%;
+  margin: 20px;
+}
